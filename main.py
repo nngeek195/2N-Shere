@@ -3,20 +3,31 @@ import threading
 import webbrowser
 import socket
 import logging
+import sys
+import io
+import base64
+import mimetypes
+import qrcode
 from flask import Flask, request, send_from_directory, jsonify, render_template_string, abort
 from werkzeug.utils import secure_filename
-from tkinter import Tk, Button, Label
-import mimetypes
+from tkinter import Tk, Button, Label, Frame
+
 
 # -------------------------------
 # Configuration
 # -------------------------------
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    SCRIPT_DIR = os.path.dirname(sys.executable)
+else:
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 UPLOAD_FOLDER = os.path.join(SCRIPT_DIR, 'uploads')
-MAX_FILE_SIZE = 100 * 1024 * 1024  # 100 MB
+
+# INCREASED LIMIT: 10 GB (10 * 1024 * 1024 * 1024 bytes)
+MAX_FILE_SIZE = 10 * 1024 * 1024 * 1024 
 ALLOWED_EXTENSIONS = {
     'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'doc', 'docx', 'xls', 'xlsx',
-    'ppt', 'pptx', 'zip', 'rar', '7z', 'mp4', 'mp3', 'wav', 'mov', 'avi'
+    'ppt', 'pptx', 'zip', 'rar', '7z', 'mp4', 'mp3', 'wav', 'mov', 'avi', 'mkv', 'apk', 'exe', 'iso'
 }
 
 # Ensure upload folder exists
@@ -29,7 +40,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = MAX_FILE_SIZE
 
-# Disable Flask logs in production
+# Disable Flask logs
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
@@ -38,13 +49,21 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def get_local_ip():
-    """Get the local IP address of the machine."""
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
-            s.connect(('10.255.255.255', 1))
+            s.connect(('8.8.8.8', 80))
             return s.getsockname()[0]
     except Exception:
         return '127.0.0.1'
+
+def generate_qr_base64(data):
+    qr = qrcode.QRCode(version=1, box_size=10, border=4)
+    qr.add_data(data)
+    qr.make(fit=True)
+    img = qr.make_image(fill_color="black", back_color="white")
+    buffered = io.BytesIO()
+    img.save(buffered, format="PNG")
+    return f"data:image/png;base64,{base64.b64encode(buffered.getvalue()).decode()}"
 
 # -------------------------------
 # Routes
@@ -53,7 +72,12 @@ def get_local_ip():
 def index():
     try:
         files = []
-        for f in os.listdir(app.config['UPLOAD_FOLDER']):
+        file_list = sorted(
+            os.listdir(app.config['UPLOAD_FOLDER']),
+            key=lambda x: os.path.getmtime(os.path.join(app.config['UPLOAD_FOLDER'], x)),
+            reverse=True
+        )
+        for f in file_list:
             path = os.path.join(app.config['UPLOAD_FOLDER'], f)
             if os.path.isfile(path):
                 mime, _ = mimetypes.guess_type(path)
@@ -62,13 +86,21 @@ def index():
                     'size': os.path.getsize(path),
                     'mime': mime or 'application/octet-stream'
                 })
-        files.sort(key=lambda x: x['name'].lower())
     except Exception:
         files = []
 
     server_ip = get_local_ip()
     server_port = 5000
-    return render_template_string(INDEX_HTML, files=files, server_ip=server_ip, server_port=server_port)
+    full_url = f"http://{server_ip}:{server_port}"
+    qr_code_img = generate_qr_base64(full_url)
+
+    return render_template_string(
+        INDEX_HTML, 
+        files=files, 
+        server_ip=server_ip, 
+        server_port=server_port,
+        qr_code=qr_code_img
+    )
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
@@ -84,43 +116,48 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-
-            # Avoid overwriting by appending number if exists
             counter = 1
             original_name = filename
             while os.path.exists(filepath):
                 name, ext = os.path.splitext(original_name)
-                filename = f"{name}({counter}){ext}"
+                filename = f"{name}_{counter}{ext}"
                 filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
                 counter += 1
-
             try:
                 file.save(filepath)
                 saved_files.append(filename)
-            except Exception as e:
-                app.logger.error(f"Failed to save {filename}: {e}")
+            except Exception:
                 continue
         else:
-            return jsonify(success=False, message=f"File type not allowed: {file.filename}"), 400
+            return jsonify(success=False, message=f"Type not allowed: {file.filename}"), 400
 
     if saved_files:
         return jsonify(success=True, uploaded=saved_files)
     else:
         return jsonify(success=False, message="No valid files uploaded"), 400
 
+@app.route('/delete/<filename>', methods=['POST'])
+def delete_file(filename):
+    try:
+        filename = secure_filename(filename)
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        if os.path.exists(filepath):
+            os.remove(filepath)
+            return jsonify(success=True)
+        else:
+            return jsonify(success=False, message="File not found"), 404
+    except Exception as e:
+        return jsonify(success=False, message=str(e)), 500
+
 @app.route('/uploads/<filename>')
 def uploaded_file(filename):
     try:
-        return send_from_directory(app.config['UPLOAD_FOLDER'], filename, as_attachment=False)
+        return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
     except FileNotFoundError:
         abort(404)
 
-@app.errorhandler(413)
-def too_large(e):
-    return jsonify(success=False, message="File too large. Max size: 100 MB."), 413
-
 # -------------------------------
-# Professional Frontend (Bootstrap 5 + Custom)
+# Frontend Template
 # -------------------------------
 INDEX_HTML = '''
 <!DOCTYPE html>
@@ -128,258 +165,230 @@ INDEX_HTML = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Niranga">
-    <meta name="description" content="Local file sharing server for CIS students at SUSL">
     <title>2N Share</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📤</text></svg>">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
-            --primary: #4361ee;
-            --secondary: #3f37c9;
-            --success: #4cc9f0;
-            --light: #f8f9fa;
-            --dark: #212529;
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --glass-bg: rgba(255, 255, 255, 0.95);
         }
         body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            background: #f0f2f5;
+            background-image: radial-gradient(#dfe4ea 1px, transparent 1px);
+            background-size: 20px 20px;
             min-height: 100vh;
-            padding-bottom: 80px;
+            padding-bottom: 60px;
         }
-        .navbar-brand {
-            font-weight: 700;
-            letter-spacing: -0.5px;
+        .navbar { background: var(--primary-gradient); box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .main-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.05);
         }
-        .upload-area {
-            border: 2px dashed #adb5bd;
+        .upload-zone {
+            border: 2px dashed #cbd5e0;
             border-radius: 12px;
             padding: 40px 20px;
             text-align: center;
-            background: rgba(255,255,255,0.6);
-            transition: all 0.3s;
+            transition: all 0.3s ease;
             cursor: pointer;
+            background: #f8fafc;
         }
-        .upload-area:hover, .upload-area.dragover {
-            border-color: var(--primary);
-            background: rgba(67, 97, 238, 0.05);
-        }
-        .file-icon {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
-        .file-list {
-            max-height: 400px;
-            overflow-y: auto;
+        .upload-zone:hover, .upload-zone.dragover {
+            border-color: #667eea;
+            background: #edf2ff;
         }
         .file-item {
-            display: flex;
-            align-items: center;
-            padding: 10px;
+            transition: background 0.2s;
             border-bottom: 1px solid #eee;
-        }
-        .file-icon-sm {
-            width: 40px;
-            height: 40px;
+            padding: 12px 15px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            background: #e9ecef;
-            border-radius: 8px;
-            margin-right: 15px;
-            font-size: 1.2rem;
         }
-        .file-info {
-            flex: 1;
-            text-align: left;
-        }
-        .file-name {
-            font-weight: 500;
-            color: var(--dark);
-            text-decoration: none;
-        }
-        .file-name:hover {
-            color: var(--primary);
-        }
-        .file-size {
+        .file-item:hover { background-color: #f8f9fa; }
+        .progress-wrapper { display: none; margin-top: 20px; }
+        .progress { height: 10px; border-radius: 5px; }
+        .speed-badge {
+            background: #eef2ff;
+            color: #667eea;
+            padding: 2px 8px;
+            border-radius: 4px;
             font-size: 0.85rem;
-            color: #6c757d;
-        }
-        .btn-upload {
-            background: var(--primary);
-            border: none;
-            padding: 10px 24px;
             font-weight: 600;
         }
-        .btn-upload:hover {
-            background: var(--secondary);
+        .btn-delete {
+            color: #dc3545;
+            background: transparent;
+            border: none;
+            padding: 5px 10px;
+            transition: all 0.2s;
         }
-        .footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            background: var(--dark);
-            color: white;
-            padding: 10px 0;
-            text-align: right;
-            font-size: 0.9rem;
-        }
-        .loading {
-            display: none;
-            color: var(--primary);
-            font-style: italic;
-        }
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 15px;
-            }
+        .btn-delete:hover {
+            background: #fee2e2;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="#">2N Share</a>
-            <span class="text-white-50 ms-2">Local File Sharing</span>
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-cloud-upload-alt me-2"></i>2N Share</a>
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <div class="alert alert-info text-center">
-            <strong>Server Address:</strong> <code>{{ server_ip }}:{{ server_port }}</code>
-            <br>
-            <small class="text-muted">Share this address with others on your network to send/receive files.</small>
-        </div>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-8">
+                <div class="main-card p-4 h-100">
+                    <h5 class="mb-4 text-secondary"><i class="fas fa-arrow-circle-up me-2"></i>Send Files</h5>
+                    
+                    <div id="dropZone" class="upload-zone">
+                        <i class="fas fa-cloud-upload-alt fa-3x mb-3 text-primary"></i>
+                        <h5 class="fw-bold text-dark">Drag & Drop files</h5>
+                        <p class="text-muted mb-0">Max 10 GB per upload</p>
+                        <input type="file" id="fileInput" multiple hidden>
+                    </div>
 
-        <!-- Upload Section -->
-        <div class="card shadow-sm mb-4">
-            <div class="card-body">
-                <h5 class="card-title mb-3">📤 Upload Files</h5>
-                <div id="dropZone" class="upload-area">
-                    <div class="file-icon">📁</div>
-                    <p><strong>Drag & drop files here</strong> or click to browse</p>
-                    <p class="text-muted small">Max 100 MB per file • Supports images, docs, videos, archives</p>
-                    <input type="file" id="fileInput" multiple style="display:none;">
+                    <div class="progress-wrapper" id="progressWrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="small fw-bold">Uploading...</span>
+                            <div>
+                                <span id="speedMeter" class="speed-badge me-2">0 MB/s</span>
+                                <span class="small fw-bold" id="progressPercent">0%</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 0%"></div>
+                        </div>
+                    </div>
+
+                    <button id="uploadBtn" class="btn btn-primary w-100 mt-4 py-2 fw-bold" style="background: var(--primary-gradient); border:none;">
+                        Start Upload
+                    </button>
                 </div>
-                <button id="uploadBtn" class="btn btn-upload mt-3 w-100">Upload Selected Files</button>
-                <div id="loading" class="loading mt-2">Uploading... Please wait.</div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="main-card p-4 h-100 text-center">
+                    <h5 class="mb-4 text-secondary"><i class="fas fa-mobile-alt me-2"></i>Connect Mobile</h5>
+                    <img src="{{ qr_code }}" alt="Scan QR" class="img-fluid border rounded p-1 mb-2" style="max-width: 180px;">
+                    <div class="fw-bold text-primary">{{ server_ip }}:{{ server_port }}</div>
+                </div>
             </div>
         </div>
 
-        <!-- File List -->
-        <div class="card shadow-sm">
-            <div class="card-header bg-white">
-                <h5 class="mb-0">📁 Uploaded Files ({{ files|length }})</h5>
-            </div>
-            <div class="file-list list-group list-group-flush">
-                {% if files %}
-                    {% for file in files %}
-                    <div class="file-item">
-                        <div class="file-icon-sm">
-                            {% if file.mime.startswith('image/') %}
-                                🖼️
-                            {% elif file.mime.startswith('video/') %}
-                                🎥
-                            {% elif file.mime.startswith('audio/') %}
-                                🔊
-                            {% elif 'pdf' in file.mime %}
-                                📄
-                            {% elif 'zip' in file.mime or 'rar' in file.mime %}
-                                📦
-                            {% elif 'word' in file.mime or 'document' in file.mime %}
-                                📝
-                            {% else %}
-                                📁
-                            {% endif %}
-                        </div>
-                        <div class="file-info">
-                            <a href="{{ url_for('uploaded_file', filename=file.name) }}" class="file-name" target="_blank">{{ file.name }}</a>
-                            <div class="file-size">{{ "%.1f"|format(file.size / 1024) }} KB</div>
-                        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="main-card">
+                    <div class="card-header bg-white p-3">
+                        <h5 class="mb-0 text-secondary"><i class="fas fa-folder-open me-2"></i>Shared Files</h5>
                     </div>
-                    {% endfor %}
-                {% else %}
-                    <div class="list-group-item text-center text-muted py-4">
-                        No files uploaded yet.
+                    <div class="list-group list-group-flush" style="max-height: 400px; overflow-y: auto;">
+                        {% for file in files %}
+                        <div class="file-item">
+                            <i class="fas fa-file me-3 text-secondary fa-lg"></i>
+                            <div class="flex-grow-1">
+                                <a href="{{ url_for('uploaded_file', filename=file.name) }}" target="_blank" class="text-decoration-none text-dark fw-medium">
+                                    {{ file.name }}
+                                </a>
+                                <div class="small text-muted">{{ "%.2f"|format(file.size / 1024 / 1024) }} MB</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <a href="{{ url_for('uploaded_file', filename=file.name) }}" class="btn btn-sm btn-light me-2" download title="Download">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                                <button onclick="deleteFile('{{ file.name }}')" class="btn-delete" title="Delete File">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        {% if not files %}
+                            <div class="p-4 text-center text-muted">No files shared yet.</div>
+                        {% endif %}
                     </div>
-                {% endif %}
+                </div>
             </div>
         </div>
     </div>
-
-    <footer class="footer">
-        <div class="container">
-            <a href="https://www.linkedin.com/in/niranga-nayanajith-548a0a302/" target="_blank" class="text-white text-decoration-none">
-                © 2N Technologies
-            </a>
-        </div>
-    </footer>
 
     <script>
         const dropZone = document.getElementById('dropZone');
         const fileInput = document.getElementById('fileInput');
         const uploadBtn = document.getElementById('uploadBtn');
-        const loading = document.getElementById('loading');
+        const progressWrapper = document.getElementById('progressWrapper');
+        const progressBar = document.getElementById('progressBar');
+        const progressPercent = document.getElementById('progressPercent');
+        const speedMeter = document.getElementById('speedMeter');
 
-        // Open file dialog on drop zone click
+        // Drag & Drop
         dropZone.addEventListener('click', () => fileInput.click());
-
-        // Handle file selection
-        fileInput.addEventListener('change', handleFiles);
-        dropZone.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            dropZone.classList.add('dragover');
-        });
+        dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('dragover'); });
         dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
         dropZone.addEventListener('drop', (e) => {
             e.preventDefault();
             dropZone.classList.remove('dragover');
-            if (e.dataTransfer.files.length) {
-                fileInput.files = e.dataTransfer.files;
-                handleFiles();
-            }
+            if (e.dataTransfer.files.length) fileInput.files = e.dataTransfer.files;
         });
-                                    
-        function handleFiles() {
-            const files = fileInput.files;
-            if (files.length === 0) return;
-            dropZone.querySelector('p').innerHTML = `${files.length} file(s) selected`;
+
+        // Delete Function
+        function deleteFile(filename) {
+            if(confirm('Are you sure you want to delete ' + filename + '?')) {
+                fetch('/delete/' + filename, { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    if(data.success) location.reload();
+                    else alert('Failed to delete file');
+                });
+            }
         }
 
-        uploadBtn.addEventListener('click', async () => {
-            const files = fileInput.files;
-            if (files.length === 0) {
-                alert('Please select files to upload.');
-                return;
-            }
+        // Upload with Speed Meter
+        uploadBtn.addEventListener('click', () => {
+            if (fileInput.files.length === 0) return alert('Select files first!');
 
-            const formData = new FormData();
-            for (let file of files) {
-                formData.append('files', file);
-            }
-
-            loading.style.display = 'block';
+            progressWrapper.style.display = 'block';
             uploadBtn.disabled = true;
+            
+            const formData = new FormData();
+            for (let file of fileInput.files) formData.append('files', file);
 
-            try {
-                const response = await fetch('/upload', {
-                    method: 'POST',
-                    body: formData
-                });
-                const result = await response.json();
+            const xhr = new XMLHttpRequest();
+            let startTime = new Date().getTime();
+            let lastLoaded = 0;
 
-                if (result.success) {
-                    location.reload();
-                } else {
-                    alert('Upload failed: ' + (result.message || 'Unknown error'));
+            xhr.upload.addEventListener('progress', (e) => {
+                if (e.lengthComputable) {
+                    const percent = Math.round((e.loaded / e.total) * 100);
+                    progressBar.style.width = percent + '%';
+                    progressPercent.innerText = percent + '%';
+
+                    // Speed Calc
+                    const currentTime = new Date().getTime();
+                    const timeDiff = (currentTime - startTime) / 1000; 
+                    if (timeDiff > 0.5) { 
+                        const speed = (e.loaded - lastLoaded) / timeDiff;
+                        const speedMB = (speed / 1024 / 1024).toFixed(2);
+                        speedMeter.innerText = speedMB + ' MB/s';
+                        startTime = currentTime;
+                        lastLoaded = e.loaded;
+                    }
                 }
-            } catch (error) {
-                console.error('Upload error:', error);
-                alert('Network error during upload. Check console for details.');
-            } finally {
-                loading.style.display = 'none';
-                uploadBtn.disabled = false;
-            }
+            });
+
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === 4) {
+                    uploadBtn.disabled = false;
+                    if (xhr.status === 200) location.reload();
+                    else alert('Upload failed. Check if file is too large or network connection.');
+                }
+            };
+
+            xhr.open('POST', '/upload', true);
+            xhr.send(formData);
         });
     </script>
 </body>
@@ -392,21 +401,24 @@ INDEX_HTML = '''
 def run_flask():
     app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
 
-def start_server():
+def start_server_thread():
     threading.Thread(target=run_flask, daemon=True).start()
     webbrowser.open("http://127.0.0.1:5000")
+    btn_start.config(state="disabled", text="Server Running...", bg="#4cc9f0")
 
 def create_gui():
+    global btn_start
     root = Tk()
     root.title("2N Share")
     root.geometry("300x200")
-    root.resizable(False, False)
-
-    Label(root, text="2N Share", font=("Helvetica", 20, "bold")).pack(pady=15)
-    Button(root, text="🚀 Start Server", command=start_server, font=("Arial", 12), width=20).pack(pady=8)
-    Button(root, text="🌐 Open Web Interface", command=lambda: webbrowser.open("http://127.0.0.1:5000"), font=("Arial", 12), width=20).pack(pady=8)
-    Button(root, text="❌ Exit", command=root.quit, font=("Arial", 12), width=20).pack(pady=15)
-
+    root.configure(bg="#f0f2f5")
+    
+    Label(root, text="2N Share", font=("Segoe UI", 20, "bold"), bg="#f0f2f5").pack(pady=20)
+    
+    btn_start = Button(root, text="🚀 Start Server", command=start_server_thread, 
+                       font=("Segoe UI", 12), bg="#4361ee", fg="white", padx=20)
+    btn_start.pack(pady=10)
+    
     root.mainloop()
 
 if __name__ == '__main__':

@@ -1,0 +1,2967 @@
+('C:\\Users\\Niranga Nayanajith\\Documents\\vs '
+ 'code\\python\\share_project_V0.01\\main file\\build\\2N_Share\\PYZ-00.pyz',
+ [('PIL',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.AvifImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\AvifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageText',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageText.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_sitebuiltins.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('blinker',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\blinker\\__init__.py',
+   'PYMODULE'),
+  ('blinker._utilities',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\blinker\\_utilities.py',
+   'PYMODULE'),
+  ('blinker.base',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\blinker\\base.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('click',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click._compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click._utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\_utils.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.core',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click.globals',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.parser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.termui',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click.testing',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
+  ('click.types',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('colorama',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dis.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('flask',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.app',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('flask.config',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.json',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE'),
+  ('flask.json.provider',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\json\\provider.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.sansio', '-', 'PYMODULE'),
+  ('flask.sansio.app',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\sansio\\app.py',
+   'PYMODULE'),
+  ('flask.sansio.blueprints',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\sansio\\blueprints.py',
+   'PYMODULE'),
+  ('flask.sansio.scaffold',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\sansio\\scaffold.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('flask.typing',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\typing.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('itsdangerous',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\__init__.py',
+   'PYMODULE'),
+  ('itsdangerous._json',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\_json.py',
+   'PYMODULE'),
+  ('itsdangerous.encoding',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\encoding.py',
+   'PYMODULE'),
+  ('itsdangerous.exc',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\exc.py',
+   'PYMODULE'),
+  ('itsdangerous.serializer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\serializer.py',
+   'PYMODULE'),
+  ('itsdangerous.signer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\signer.py',
+   'PYMODULE'),
+  ('itsdangerous.timed',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\timed.py',
+   'PYMODULE'),
+  ('itsdangerous.url_safe',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\itsdangerous\\url_safe.py',
+   'PYMODULE'),
+  ('jinja2',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('packaging',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('qrcode',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\__init__.py',
+   'PYMODULE'),
+  ('qrcode.LUT',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\LUT.py',
+   'PYMODULE'),
+  ('qrcode.base',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\base.py',
+   'PYMODULE'),
+  ('qrcode.compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\compat\\__init__.py',
+   'PYMODULE'),
+  ('qrcode.compat.png',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\compat\\png.py',
+   'PYMODULE'),
+  ('qrcode.constants',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\constants.py',
+   'PYMODULE'),
+  ('qrcode.exceptions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\exceptions.py',
+   'PYMODULE'),
+  ('qrcode.image',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\__init__.py',
+   'PYMODULE'),
+  ('qrcode.image.base',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\base.py',
+   'PYMODULE'),
+  ('qrcode.image.pil',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\pil.py',
+   'PYMODULE'),
+  ('qrcode.image.pure',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\pure.py',
+   'PYMODULE'),
+  ('qrcode.image.styledpil',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\styledpil.py',
+   'PYMODULE'),
+  ('qrcode.image.styles',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\styles\\__init__.py',
+   'PYMODULE'),
+  ('qrcode.image.styles.colormasks',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\styles\\colormasks.py',
+   'PYMODULE'),
+  ('qrcode.image.styles.moduledrawers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\styles\\moduledrawers\\__init__.py',
+   'PYMODULE'),
+  ('qrcode.image.styles.moduledrawers.base',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\styles\\moduledrawers\\base.py',
+   'PYMODULE'),
+  ('qrcode.image.styles.moduledrawers.pil',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\image\\styles\\moduledrawers\\pil.py',
+   'PYMODULE'),
+  ('qrcode.main',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\main.py',
+   'PYMODULE'),
+  ('qrcode.util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\qrcode\\util.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\random.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._discovery',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_discovery.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.numpy',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\numpy.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C.base',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\base.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.errors',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.msvc',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\msvc.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_static.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.typing_extensions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\unpack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\glob.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tomllib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\typing.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.mock',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\mock.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('werkzeug',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.accept',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\accept.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.auth',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.cache_control',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\cache_control.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.csp',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\csp.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.etag',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\etag.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.file_storage',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.headers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.mixins',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.range',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\range.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures.structures',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\routing\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.routing.converters',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\routing\\converters.py',
+   'PYMODULE'),
+  ('werkzeug.routing.exceptions',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.routing.map',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\routing\\map.py',
+   'PYMODULE'),
+  ('werkzeug.routing.matcher',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\routing\\matcher.py',
+   'PYMODULE'),
+  ('werkzeug.routing.rules',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\routing\\rules.py',
+   'PYMODULE'),
+  ('werkzeug.sansio',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.http',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\http.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.multipart',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.request',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.response',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.user_agent',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
+   'code\\python\\share_project_V0.01\\main '
+   'file\\.venv\\Lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Niranga '
+   'Nayanajith\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipimport.py',
+   'PYMODULE')])
