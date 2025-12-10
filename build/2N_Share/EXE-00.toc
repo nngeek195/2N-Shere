@@ -3,7 +3,8 @@
  False,
  False,
  False,
- 'NONE',
+ ['C:\\Users\\Niranga Nayanajith\\Documents\\vs '
+  'code\\python\\share_project_V0.01\\main file\\icon.ico'],
  None,
  False,
  False,
@@ -4259,7 +4260,7 @@
  [],
  False,
  False,
- 1765371861,
+ 1765372499,
  [('runw.exe',
    'c:\\Users\\Niranga Nayanajith\\Documents\\vs '
    'code\\python\\share_project_V0.01\\main '
