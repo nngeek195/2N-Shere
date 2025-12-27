@@ -8,22 +8,22 @@ import io
 import base64
 import mimetypes
 import qrcode
-from flask import Flask, request, send_from_directory, jsonify, render_template_string, abort
+from flask import Flask, request, send_from_directory, jsonify, render_template_string
 from werkzeug.utils import secure_filename
 from tkinter import Tk, Button, Label
 import ctypes
 
-# ---------------------------------
-# Windows firewall permission hint
-# ---------------------------------
+# -----------------------------
+# Admin check (firewall hint)
+# -----------------------------
 try:
     ctypes.windll.shell32.IsUserAnAdmin()
 except:
     pass
 
-# ---------------------------------
-# Configuration
-# ---------------------------------
+# -----------------------------
+# Base directory (EXE safe)
+# -----------------------------
 if getattr(sys, 'frozen', False):
     BASE_DIR = os.path.dirname(sys.executable)
 else:
@@ -35,24 +35,24 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 MAX_FILE_SIZE = 10 * 1024 * 1024 * 1024  # 10GB
 
 ALLOWED_EXTENSIONS = {
-    'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif',
-    'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx',
-    'zip', 'rar', '7z', 'mp4', 'mp3', 'wav',
-    'mov', 'avi', 'mkv', 'apk', 'exe', 'iso'
+    'txt','pdf','png','jpg','jpeg','gif',
+    'doc','docx','xls','xlsx','ppt','pptx',
+    'zip','rar','7z','mp4','mp3','wav',
+    'mov','avi','mkv','apk','exe','iso'
 }
 
-# ---------------------------------
+# -----------------------------
 # Flask App
-# ---------------------------------
+# -----------------------------
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = MAX_FILE_SIZE
 
 logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
-# ---------------------------------
+# -----------------------------
 # Helpers
-# ---------------------------------
+# -----------------------------
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
@@ -72,9 +72,9 @@ def generate_qr_base64(url):
     qr.save(buf, format="PNG")
     return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
 
-# ---------------------------------
+# -----------------------------
 # Routes
-# ---------------------------------
+# -----------------------------
 @app.route('/')
 def index():
     files = []
@@ -123,19 +123,19 @@ def upload():
 
 @app.route('/delete/<filename>', methods=['POST'])
 def delete(filename):
-    filename = secure_filename(filename)
-    path = os.path.join(UPLOAD_FOLDER, filename)
+    path = os.path.join(UPLOAD_FOLDER, secure_filename(filename))
     if os.path.exists(path):
         os.remove(path)
     return jsonify(success=True)
 
+# ✅ FIXED NAME
 @app.route('/uploads/<filename>')
-def serve_file(filename):
+def uploaded_file(filename):
     return send_from_directory(UPLOAD_FOLDER, filename)
 
-# ---------------------------------
-# Frontend HTML
-# ---------------------------------
+# -----------------------------
+# HTML (UNCHANGED UI)
+# -----------------------------
 INDEX_HTML = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -372,11 +372,10 @@ INDEX_HTML = '''
 </html>
 '''
 
-# 👆 Keep the SAME HTML you already have
 
-# ---------------------------------
+# -----------------------------
 # Server + GUI
-# ---------------------------------
+# -----------------------------
 def run_server():
     app.run(
         host="0.0.0.0",
@@ -388,10 +387,7 @@ def run_server():
 
 def start():
     threading.Thread(target=run_server, daemon=True).start()
-
-    ip = get_local_ip()
-    webbrowser.open(f"http://{ip}:5000")
-
+    webbrowser.open(f"http://{get_local_ip()}:5000")
     start_btn.config(text="Server Running", state="disabled")
 
 def create_gui():
@@ -402,8 +398,14 @@ def create_gui():
 
     Label(root, text="2N Share", font=("Segoe UI", 20, "bold")).pack(pady=20)
 
-    start_btn = Button(root, text="🚀 Start Server", command=start,
-                       bg="#4361ee", fg="white", font=("Segoe UI", 12))
+    start_btn = Button(
+        root,
+        text="🚀 Start Server",
+        command=start,
+        bg="#4361ee",
+        fg="white",
+        font=("Segoe UI", 12)
+    )
     start_btn.pack(pady=10)
 
     root.mainloop()
