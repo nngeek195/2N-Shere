@@ -10,155 +10,132 @@ import mimetypes
 import qrcode
 from flask import Flask, request, send_from_directory, jsonify, render_template_string, abort
 from werkzeug.utils import secure_filename
-from tkinter import Tk, Button, Label, Frame
+from tkinter import Tk, Button, Label
+import ctypes
 
+# ---------------------------------
+# Windows firewall permission hint
+# ---------------------------------
+try:
+    ctypes.windll.shell32.IsUserAnAdmin()
+except:
+    pass
 
-# -------------------------------
+# ---------------------------------
 # Configuration
-# -------------------------------
+# ---------------------------------
 if getattr(sys, 'frozen', False):
-    SCRIPT_DIR = os.path.dirname(sys.executable)
+    BASE_DIR = os.path.dirname(sys.executable)
 else:
-    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-UPLOAD_FOLDER = os.path.join(SCRIPT_DIR, 'uploads')
-
-# INCREASED LIMIT: 10 GB (10 * 1024 * 1024 * 1024 bytes)
-MAX_FILE_SIZE = 10 * 1024 * 1024 * 1024 
-ALLOWED_EXTENSIONS = {
-    'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'doc', 'docx', 'xls', 'xlsx',
-    'ppt', 'pptx', 'zip', 'rar', '7z', 'mp4', 'mp3', 'wav', 'mov', 'avi', 'mkv', 'apk', 'exe', 'iso'
-}
-
-# Ensure upload folder exists
+UPLOAD_FOLDER = os.path.join(BASE_DIR, "uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# -------------------------------
-# Flask App Setup
-# -------------------------------
+MAX_FILE_SIZE = 10 * 1024 * 1024 * 1024  # 10GB
+
+ALLOWED_EXTENSIONS = {
+    'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif',
+    'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx',
+    'zip', 'rar', '7z', 'mp4', 'mp3', 'wav',
+    'mov', 'avi', 'mkv', 'apk', 'exe', 'iso'
+}
+
+# ---------------------------------
+# Flask App
+# ---------------------------------
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = MAX_FILE_SIZE
 
-# Disable Flask logs
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.ERROR)
+logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
+# ---------------------------------
+# Helpers
+# ---------------------------------
 def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def get_local_ip():
     try:
-        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
-            s.connect(('8.8.8.8', 80))
-            return s.getsockname()[0]
-    except Exception:
-        return '127.0.0.1'
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+        return ip
+    except:
+        return "127.0.0.1"
 
-def generate_qr_base64(data):
-    qr = qrcode.QRCode(version=1, box_size=10, border=4)
-    qr.add_data(data)
-    qr.make(fit=True)
-    img = qr.make_image(fill_color="black", back_color="white")
-    buffered = io.BytesIO()
-    img.save(buffered, format="PNG")
-    return f"data:image/png;base64,{base64.b64encode(buffered.getvalue()).decode()}"
+def generate_qr_base64(url):
+    qr = qrcode.make(url)
+    buf = io.BytesIO()
+    qr.save(buf, format="PNG")
+    return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
 
-# -------------------------------
+# ---------------------------------
 # Routes
-# -------------------------------
+# ---------------------------------
 @app.route('/')
 def index():
-    try:
-        files = []
-        file_list = sorted(
-            os.listdir(app.config['UPLOAD_FOLDER']),
-            key=lambda x: os.path.getmtime(os.path.join(app.config['UPLOAD_FOLDER'], x)),
-            reverse=True
-        )
-        for f in file_list:
-            path = os.path.join(app.config['UPLOAD_FOLDER'], f)
-            if os.path.isfile(path):
-                mime, _ = mimetypes.guess_type(path)
-                files.append({
-                    'name': f,
-                    'size': os.path.getsize(path),
-                    'mime': mime or 'application/octet-stream'
-                })
-    except Exception:
-        files = []
+    files = []
+    for f in sorted(os.listdir(UPLOAD_FOLDER), reverse=True):
+        path = os.path.join(UPLOAD_FOLDER, f)
+        if os.path.isfile(path):
+            mime, _ = mimetypes.guess_type(path)
+            files.append({
+                "name": f,
+                "size": os.path.getsize(path),
+                "mime": mime or "application/octet-stream"
+            })
 
-    server_ip = get_local_ip()
-    server_port = 5000
-    full_url = f"http://{server_ip}:{server_port}"
-    qr_code_img = generate_qr_base64(full_url)
+    ip = get_local_ip()
+    port = 5000
+    url = f"http://{ip}:{port}"
 
     return render_template_string(
-        INDEX_HTML, 
-        files=files, 
-        server_ip=server_ip, 
-        server_port=server_port,
-        qr_code=qr_code_img
+        INDEX_HTML,
+        files=files,
+        server_ip=ip,
+        server_port=port,
+        qr_code=generate_qr_base64(url)
     )
 
 @app.route('/upload', methods=['POST'])
-def upload_file():
+def upload():
     if 'files' not in request.files:
-        return jsonify(success=False, message="No files provided"), 400
+        return jsonify(success=False), 400
 
-    files = request.files.getlist('files')
-    saved_files = []
-
-    for file in files:
-        if file.filename == '':
-            continue
+    for file in request.files.getlist('files'):
         if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
-            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            counter = 1
-            original_name = filename
-            while os.path.exists(filepath):
-                name, ext = os.path.splitext(original_name)
-                filename = f"{name}_{counter}{ext}"
-                filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-                counter += 1
-            try:
-                file.save(filepath)
-                saved_files.append(filename)
-            except Exception:
-                continue
-        else:
-            return jsonify(success=False, message=f"Type not allowed: {file.filename}"), 400
+            name = secure_filename(file.filename)
+            path = os.path.join(UPLOAD_FOLDER, name)
 
-    if saved_files:
-        return jsonify(success=True, uploaded=saved_files)
-    else:
-        return jsonify(success=False, message="No valid files uploaded"), 400
+            count = 1
+            base, ext = os.path.splitext(name)
+            while os.path.exists(path):
+                name = f"{base}_{count}{ext}"
+                path = os.path.join(UPLOAD_FOLDER, name)
+                count += 1
+
+            file.save(path)
+
+    return jsonify(success=True)
 
 @app.route('/delete/<filename>', methods=['POST'])
-def delete_file(filename):
-    try:
-        filename = secure_filename(filename)
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        if os.path.exists(filepath):
-            os.remove(filepath)
-            return jsonify(success=True)
-        else:
-            return jsonify(success=False, message="File not found"), 404
-    except Exception as e:
-        return jsonify(success=False, message=str(e)), 500
+def delete(filename):
+    filename = secure_filename(filename)
+    path = os.path.join(UPLOAD_FOLDER, filename)
+    if os.path.exists(path):
+        os.remove(path)
+    return jsonify(success=True)
 
 @app.route('/uploads/<filename>')
-def uploaded_file(filename):
-    try:
-        return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
-    except FileNotFoundError:
-        abort(404)
+def serve_file(filename):
+    return send_from_directory(UPLOAD_FOLDER, filename)
 
-# -------------------------------
-# Frontend Template
-# -------------------------------
+# ---------------------------------
+# Frontend HTML
+# ---------------------------------
 INDEX_HTML = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -395,31 +372,41 @@ INDEX_HTML = '''
 </html>
 '''
 
-# -------------------------------
-# Server & GUI
-# -------------------------------
-def run_flask():
-    app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
+# 👆 Keep the SAME HTML you already have
 
-def start_server_thread():
-    threading.Thread(target=run_flask, daemon=True).start()
-    webbrowser.open("http://127.0.0.1:5000")
-    btn_start.config(state="disabled", text="Server Running...", bg="#4cc9f0")
+# ---------------------------------
+# Server + GUI
+# ---------------------------------
+def run_server():
+    app.run(
+        host="0.0.0.0",
+        port=5000,
+        threaded=True,
+        debug=False,
+        use_reloader=False
+    )
+
+def start():
+    threading.Thread(target=run_server, daemon=True).start()
+
+    ip = get_local_ip()
+    webbrowser.open(f"http://{ip}:5000")
+
+    start_btn.config(text="Server Running", state="disabled")
 
 def create_gui():
-    global btn_start
+    global start_btn
     root = Tk()
     root.title("2N Share")
     root.geometry("300x200")
-    root.configure(bg="#f0f2f5")
-    
-    Label(root, text="2N Share", font=("Segoe UI", 20, "bold"), bg="#f0f2f5").pack(pady=20)
-    
-    btn_start = Button(root, text="🚀 Start Server", command=start_server_thread, 
-                       font=("Segoe UI", 12), bg="#4361ee", fg="white", padx=20)
-    btn_start.pack(pady=10)
-    
+
+    Label(root, text="2N Share", font=("Segoe UI", 20, "bold")).pack(pady=20)
+
+    start_btn = Button(root, text="🚀 Start Server", command=start,
+                       bg="#4361ee", fg="white", font=("Segoe UI", 12))
+    start_btn.pack(pady=10)
+
     root.mainloop()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     create_gui()
