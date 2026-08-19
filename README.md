@@ -13,7 +13,7 @@ This is a fully functional python base application. This is a simple altanative 
 
 ## How use this (Users)
 - Go to dist folder
-- Download the Exe file
+- Download the Exe file.
 - connect your Pc with your mobile phones hostport
 - open the applications
   <img width="71" alt="image" src="https://github.com/user-attachments/assets/deb7fb43-70a7-4bd4-9178-e69ea6843ca6" />
